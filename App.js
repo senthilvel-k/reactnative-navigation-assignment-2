@@ -3,6 +3,7 @@ import { Button, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Icon } from 'react-native-elements';
 
 function DetailsScreen() {
   return (
@@ -14,7 +15,7 @@ function DetailsScreen() {
 function MenuScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Senthil has logged in</Text>
+      <Text>Senthil has logged out</Text>
     </View>
   );
 }
@@ -56,7 +57,7 @@ function MenuuScreen({ navigation }) {
       <Text>Menu screen</Text>
       <Button
         title="Click to logout"
-        onPress={() => navigation.navigate('Setup')}
+        onPress={() => navigation.navigate('Logout')}
       />
     </View>
   );
@@ -70,6 +71,7 @@ function HomeStackScreen() {
       <HomeStack.Screen name="Home" component={HomeScreen} />
       <HomeStack.Screen name="Details" component={DetailsScreen} />
       <HomeStack.Screen name="Setup" component={Setup} />
+      <HomeStack.Screen name="Logout" component={MenuScreen} />
     </HomeStack.Navigator>
   );
 }
