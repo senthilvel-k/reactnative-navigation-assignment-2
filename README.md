@@ -14,7 +14,8 @@ npm install react-native-reanimated react-native-gesture-handler react-native-sc
 
 Now Combining Tab Navigation and Stack Navigation
 
-![Android Emulator - Pixel_XL_API_29_5554 2021-06-26 17-25-43](https://user-images.githubusercontent.com/86486178/123512344-7cb2b800-d6a4-11eb-987a-7c748c895ebe.gif)
+![Android Emulator - Pixel_XL_API_29_5554 2021-06-26 17-25-43]![ezgif com-gif-maker](https://user-images.githubusercontent.com/86486178/124492129-ade06600-ddd1-11eb-996e-c0c17b730d39.gif)
+
 
 ![image](https://user-images.githubusercontent.com/86486178/123512351-8805e380-d6a4-11eb-9ad6-4e11f99e00d8.png)
 
